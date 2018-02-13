@@ -1,0 +1,206 @@
+
+/*--Dark Primary Color #00796B-----*/
+/*--LIGHT PRIMARY COLOR #B2DFDB-----*/
+/*--PRIMARY COLOR#009688-----*/
+/*--TEXT / ICONS#FFFFFF-----*/
+/*--ACCENT COLOR#607D8B-----*/
+/*--PRIMARY TEXT#212121-----*/
+/*--SECONDARY TEXT#757575-----*/
+/*--DIVIDER COLOR#BDBDBD-----*/
+
+
+
+/*------------------------*/
+/*------General Setup-----*/
+/*------------------------*/
+
+html {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing:border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+      color: #B2DFDB;
+      font-family: 'raleway', 'open sans';
+      background-color: #fff;
+      line-height: 1.8;
+      overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  padding:0;
+}
+
+.logo {
+    height: 35px;
+    width: 40px;
+    margin: 4px 0 4px 35px;
+    border-radius: 5%;
+}
+
+/*------------------------*/
+/*--Reuseable Components--*/
+/*------------------------*/
+
+.row {
+    margin: 0 -9999rem;
+    padding: 0.25rem 9999rem;
+    background-color: #212121;
+    height: 43px;
+}
+
+h1 {
+    font-size:500%;
+    text-align:center;
+    padding-top:0;
+    padding-bottom:0;
+}
+
+h2 {
+    font-size:300%;
+    text-align:center;
+    margin-top:0;
+    margin-bottom:0;
+    padding-top:5%;
+}
+
+h3 {
+    font-size:200%;
+    text-align:center;
+    padding-top:0;
+    padding-bottom:0;
+    margin-top:0;
+    margin-bottom:0;
+}
+
+h4 {
+  font-size:125%;
+  margin-top:15px;
+  padding-top:0;
+}
+
+/*------------------------*/
+/*------ Links -----------*/
+/*------------------------*/
+
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration:none;
+}
+
+/*------------------------*/
+/*---- Landing Page  -----*/
+/*------------------------*/
+
+.landingpg {
+  background-image: url(../img/falls.jpg);
+  background-size:cover;
+  background-position:center;
+  background-attachment:fixed;
+  height:100vh;
+}
+
+.landingtextbox {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: center;
+}
+
+/*------Navigation------*/
+
+
+nav ul {
+    float:right;
+
+}
+
+nav li {
+    display:inline-block;
+    font-size:120%;
+    margin-right: 20px;
+    margin-top: -5px;
+}
+
+ul {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    color: #B2DFDB;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #009688;
+    border-bottom: 1px solid #009688;
+}
+
+/*------------------------*/
+/*---- FunFacts Sect.-----*/
+/*------------------------*/
+
+.fun {
+    color: #212121;
+    background-color: #B2DFDB;
+    line-height: 1.8;
+    height:100vh;
+    position:relative;
+    text-align:center;
+}
+
+
+.funf {
+  width:500px;
+  text-size: 150%;
+  margin:0 auto;
+  word-spacing:4px;
+}
+
+
+.funf i {
+  margin-right: 10px;
+}
+
+/*------------------------*/
+/*----    Showcase   -----*/
+/*------------------------*/
+
+.showcase {
+  width:1400px;
+  margin-right:auto;
+  margin-left:auto;
+  padding-bottom:50px;
+}
+
+.target {
+  width:175px;
+  height:auto;
+  display: inline-block;
+  margin-top:20px;
+  margin-bottom:-5px;
+  overflow:hidden;
+}
+
+
+.row1 {
+  text-align:center;
+}
+
+.target figcaption {
+  color:#00796B;
+}
