@@ -1,0 +1,204 @@
+
+/*//////////////////////////////////////// Query for screens less than 1124 pixels.  Tablets and large phones */
+
+@media only screen and (max-width: 1124px){
+  h1 {
+  font-size:300%;
+  line-height:1.4;
+  margin-top:10px;
+  }
+  
+h2 { font-size:250%; }
+
+h3 { font-size:175%; }
+
+h4 { font-size:125%; }
+
+h5 { font-size:115%; }
+
+.showcase { width:600px; }
+
+.target { width:275px; opacity:1; }
+
+.target:hover {
+  transform:2s;
+  transform: scale(1.25);
+  opacity:1;
+  z-index:1;
+  position:relative;
+}
+
+.add { width:600px; }
+  
+.additional img {  width:300px; }
+
+.add_ul {
+  width:275px;
+  padding-left:10px;
+  line-height:1.2;
+}
+
+}
+
+/*//////////////////////////////////////// Query for screens less than 620px width.  Phones*/
+
+@media only screen and (max-width: 620px){
+
+html { font-size:80%; }
+
+.landingtextbox {
+  height:100px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+
+.row { height:25px; }
+
+.fun {
+  line-height: 1.2;
+  padding-bottom:20px;
+  margin-bottom:30px;
+}
+
+.funf {
+  width:370px;
+  word-spacing:2px; }
+
+.funf i { margin-right: 5px; }
+
+
+.showcase {
+  width:380px;
+  padding-bottom:20px;
+}
+
+.target {
+  width:180px;
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+/*----  How to Go    -----*/
+
+.wrapper { margin-top:20px; }
+
+.col1 { width: 380px; }
+
+/*---------Col 2-----------*/
+
+.col2 { width:190px; }
+
+/*----------Row1-----------*/
+
+.row1 h5 {
+  margin-top:0;
+  padding-top:10px;
+  text-align:center;
+}
+
+.row1 p {
+  width:190px;
+  padding:0 0 25px 0;
+  text-align:center;
+  margin-bottom:0;
+}
+
+/*----------Row2------------*/
+
+.row2 p {
+  width:190px;
+  padding:0 0 25px 0;
+  text-align:center;
+  margin-top:0;
+}
+
+.row2 h5 {
+  margin-top:0;
+  padding-top:10px;
+}
+
+/*---Additional Resources----*/
+
+.add { width:350px; }
+
+.additional img {
+  width:165px;
+  margin-top:20px;
+}
+
+.add_ul {
+  width:165px;
+  padding-left:10px;
+  float:left;
+}
+
+.add li { padding-bottom:10px; }
+
+
+/*----- Contact ------*/
+
+.contact {
+  width:350px;
+  margin: 20px auto 20px auto;
+}
+
+form { margin-bottom:50px; }
+
+label {
+  display: inline-block;
+  float: left;
+  clear: left;
+  margin-top:10px;
+  width: 100px;
+  padding-left:5px;
+  text-align: left;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  margin-top:10px;
+  width:100px;
+}
+textarea {
+  margin-top:10px;
+  width:200px;
+}
+
+select { margin-top:10px; }
+
+button {
+  display:inline-block;
+  width:100px;
+  height:25px;
+  margin:10px 125px 10px 125px;
+  text-align:center;
+}
+
+/*----- Footer ------*/
+
+footer { height:200px; }
+
+.logo {
+  margin:0 0 0 10px;
+  display:inline-block;
+  width:32px;
+  height:30px;
+  vertical-align:middle;
+}
+
+.footOne {
+  width:250px;
+  margin:40px auto 0 auto;
+  padding-top:20px;
+}
+
+.footTwo {
+  font-size:200%;
+  width:200px;
+  margin:10px auto 0 auto;
+  padding-top:20px;
+}
+
+  
+}
