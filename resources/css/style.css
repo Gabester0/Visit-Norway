@@ -75,7 +75,7 @@ h5 {
 
 
 .landingpg {
-  background-image: url(falls-min.jpg);
+  background-image: url("falls-min.jpg");
   background-size:cover;
   background-position:center;
   background-attachment:fixed;
