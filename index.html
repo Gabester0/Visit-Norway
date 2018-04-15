@@ -271,16 +271,16 @@
         
         <form>
           <label>Your Name</label>
-            <input type="text" name="yourName" required="required" style="align:right" placeholder="I-love Norway" autocomplete="off">
+            <input type="text" name="yourName" required="required" style="align:right" placeholder="I-love Norway" autocomplete="name">
           <br>
           
           <label>Your Email</label>
-            <input type="email" name="yourEmail" required="required" autocomplete="off">
+            <input type="email" name="yourEmail" required="required" autocomplete="email">
           <br>
           
           <label>Your reason</label>
             <select>
-              <option>I love to travel</option>
+              <option default="default">I love to travel</option>
               <option>I love your website</option>
               <option>I hate your website</option>
               <option>I am also learning to code!</option>
@@ -290,7 +290,7 @@
           <br>
           
           <label>Your message</label>
-            <textarea rows="8" cols="30" name="yourMessage" autocomplete="off"></textarea>
+            <textarea rows="8" cols="30" name="yourMessage" autocomplete="foo"></textarea>
           <br>
           
           <button type="button" onclick="alert('Thank you.  Your message has been received.');">Submit</button>
