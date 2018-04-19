@@ -1,4 +1,4 @@
-
+$(document).ready(function(){
 /////////////////////////////////////////////////////////////////////////////////////Scroll Functions with the navigation
 
 $(".jsClickMore").click(function(){
@@ -30,4 +30,5 @@ $(window).scroll(function(){
   } else{
     mn.removeClass(".rowScrolled");
   }
+});
 });
